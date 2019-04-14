@@ -121,7 +121,7 @@ void Dijkstra(int src, int dest, vector<int> &path)
 int main()
 {
 	/*cin重定向*/
-	freopen("directed_weighted_graph.txt","r", stdin);
+	freopen("undirected_weighted_graph.txt","r", stdin);
 
 	cin >> G_size;
 	for (int i = 0; i < G_size; i++)
@@ -137,7 +137,7 @@ int main()
 	while ((cin >> src >> dest >> weight).good())
 	{
 		G[src][dest] = weight;
-		G[dest][src] = weight;//无向图
+		G[dest][src] = weight;//无向图，//有向图的话要把这句删掉
 	}
 	cin.clear();
 	freopen("CON", "r", stdin);//重定向到控制台
