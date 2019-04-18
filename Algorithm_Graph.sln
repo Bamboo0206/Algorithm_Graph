@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Algorithm_Graph", "Algorith
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dijkstra", "Dijkstra\Dijkstra.vcxproj", "{5F027DE6-42AB-467B-8A3A-6815BD543719}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dijkstra改进-经过指定中间节点", "Dijkstra改进-经过指定中间节点\Dijkstra改进-经过指定中间节点.vcxproj", "{E790D475-BF62-45DE-9869-A4215F3C132B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{5F027DE6-42AB-467B-8A3A-6815BD543719}.Release|x64.Build.0 = Release|x64
 		{5F027DE6-42AB-467B-8A3A-6815BD543719}.Release|x86.ActiveCfg = Release|Win32
 		{5F027DE6-42AB-467B-8A3A-6815BD543719}.Release|x86.Build.0 = Release|Win32
+		{E790D475-BF62-45DE-9869-A4215F3C132B}.Debug|x64.ActiveCfg = Debug|x64
+		{E790D475-BF62-45DE-9869-A4215F3C132B}.Debug|x64.Build.0 = Debug|x64
+		{E790D475-BF62-45DE-9869-A4215F3C132B}.Debug|x86.ActiveCfg = Debug|Win32
+		{E790D475-BF62-45DE-9869-A4215F3C132B}.Debug|x86.Build.0 = Debug|Win32
+		{E790D475-BF62-45DE-9869-A4215F3C132B}.Release|x64.ActiveCfg = Release|x64
+		{E790D475-BF62-45DE-9869-A4215F3C132B}.Release|x64.Build.0 = Release|x64
+		{E790D475-BF62-45DE-9869-A4215F3C132B}.Release|x86.ActiveCfg = Release|Win32
+		{E790D475-BF62-45DE-9869-A4215F3C132B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
