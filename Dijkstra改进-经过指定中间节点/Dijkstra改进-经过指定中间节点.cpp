@@ -239,7 +239,11 @@ int main()
 		}
 
 		/*输出*/
-		cout << all_path[min_row][0];
+		cout << "总长度：";
+		for (auto node : all_path[min_row])
+		{
+			cout << node << " ";
+		}
 
 		
 	}
