@@ -169,8 +169,13 @@ int main()
 	{
 		vector<int> path(1);//0占位
 		path.at(0) = Dijkstra(src, dest, path);
+
 		/*输出*/
-		cout << path.at(0);
+		cout << "总长度：";
+		for (auto node : path)
+		{
+			cout << node << " ";
+		}
 	}
 	else//要经过的中间节点个数不为0
 	{
